@@ -8,11 +8,11 @@ test:
 
 .PHONY: run
 run:
-	python3 application/querio.py
+	python3 application/main.py
 
 .PHONY: run-test
 run-test:
-	python3 application/querio.py -- --run-test
+	python3 application/main.py -- --run-test
 
 .PHONY: build
 build:

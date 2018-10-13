@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['application/querio.py'],
+a = Analysis(['application/main.py'],
              pathex=['application/', '/Users/ossi/Documents/Quer.io'],
              binaries=[],
              datas=[('application/configuration.ini', 'application'), ('application/userInterface.kv', 'application')],

@@ -10,7 +10,8 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.spinner import Spinner
 from kivy.graphics import Color, Rectangle
 from kivy.uix.popup import Popup
-from service.database_and_model_service import DatabaseAndModelService as ds
+import querio
+from querio.service.database_and_model_service import DatabaseAndModelService as ds
 from ui.database_config_window import DBWindow
 
 

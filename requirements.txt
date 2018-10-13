@@ -4,6 +4,9 @@ Cython==0.28.2
 psycopg2==2.7.5
 SQLAlchemy==1.2.11
 
+#Querio
+-e git+git://github.com/Quer-io/Quer.io@feature/gui-repo-split#egg=querio
+
 #machine learning
 numpy==1.14.3
 pandas==0.23.0

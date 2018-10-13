@@ -1,4 +1,5 @@
-from service.database_and_model_service import DatabaseAndModelService
+import querio
+from querio.service.database_and_model_service import DatabaseAndModelService
 
 ds = DatabaseAndModelService("age", "income", (True, ''))
 
