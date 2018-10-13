@@ -5,7 +5,7 @@ psycopg2==2.7.5
 SQLAlchemy==1.2.11
 
 #Querio
--e git+git://github.com/Quer-io/Quer.io@feature/gui-repo-split#egg=querio
+-e git+git://github.com/Quer-io/Quer.io@master#egg=querio
 
 #machine learning
 numpy==1.14.3
